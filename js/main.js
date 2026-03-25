@@ -144,4 +144,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.5 });
   counters.forEach(el => counterObserver.observe(el));
 
+  // ---- COPY PRICING LINK ----
+  window.copyPricingLink = function() {
+    const url = window.location.href.split('#')[0] + '#pricing';
+    navigator.clipboard.writeText(url).then(() => {
+      const btn = document.querySelector('.btn-copy');
+      if (btn) { btn.textContent = 'Copied!'; setTimeout(() => btn.textContent = 'Copy Link', 2000); }
+    }).catch(() => alert('Share this link: ' + url));
+  };
+
 });

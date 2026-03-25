@@ -11,11 +11,12 @@
 
   <!-- ============ NAV ============ -->
   <nav>
-    <a href="#" class="nav-logo">LAC<span>.</span>DEV</a>
+    <a href="#" class="nav-logo">LACA<span>.</span>VISION</a>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#pricing">Pricing</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav-right">
@@ -32,6 +33,7 @@
     <a href="#about" class="mobile-link">About</a>
     <a href="#projects" class="mobile-link">Projects</a>
     <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#pricing" class="mobile-link">Pricing</a>
     <a href="#contact" class="mobile-link">Contact</a>
   </div>
 
@@ -119,9 +121,21 @@
           <div class="skill-group-title">Backend &amp; Languages</div>
           <div class="skill-chips">
             <span class="chip purple">Python</span>
+            <span class="chip purple">Node.js</span>
             <span class="chip purple">Java</span>
             <span class="chip purple">Apex</span>
             <span class="chip purple">REST API</span>
+            <span class="chip purple">Express.js</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-title">Databases</div>
+          <div class="skill-chips">
+            <span class="chip">SQL</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">Firebase</span>
+            <span class="chip green">Supabase</span>
           </div>
         </div>
         <div class="skill-group">
@@ -129,8 +143,9 @@
           <div class="skill-chips">
             <span class="chip green">WordPress</span>
             <span class="chip green">Salesforce LWC</span>
-            <span class="chip green">Supabase</span>
             <span class="chip green">Netlify</span>
+            <span class="chip green">Vercel</span>
+            <span class="chip green">Render</span>
           </div>
         </div>
         <div class="skill-group">
@@ -140,13 +155,17 @@
             <span class="chip">RFID</span>
             <span class="chip">Arduino Cloud</span>
             <span class="chip">Chart.js</span>
+            <span class="chip">MQTT</span>
           </div>
         </div>
         <div class="skill-group">
-          <div class="skill-group-title">Tools</div>
+          <div class="skill-group-title">Tools &amp; DevOps</div>
           <div class="skill-chips">
             <span class="chip green">Git / GitHub</span>
+            <span class="chip green">Postman</span>
+            <span class="chip green">VS Code</span>
             <span class="chip green">Trello</span>
+            <span class="chip green">npm</span>
             <span class="chip green">Google Workspace</span>
           </div>
         </div>
@@ -322,9 +341,294 @@
 
   <div class="section-divider"></div>
 
+  <!-- ============ PRICING ============ -->
+  <section id="pricing">
+    <div class="section-label">03 — Pricing</div>
+    <h2 class="section-title">Transparent Pricing.</h2>
+
+    <div class="pricing-share-bar">
+      <span>📎 Share pricing with clients:</span>
+      <button class="btn-copy" onclick="copyPricingLink()">Copy Link</button>
+    </div>
+
+    <!-- FRONTEND -->
+    <div class="pricing-category-label">🎨 Frontend Development</div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🖼️</div>
+        <div class="pricing-name">Landing Page</div>
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>150</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Single responsive page</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Mobile-friendly design</li>
+          <li>Contact form setup</li>
+          <li>Basic animations</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>3–5 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal">
+        <div class="pricing-popular">Most Popular</div>
+        <div class="pricing-icon">💻</div>
+        <div class="pricing-name">Multi-Page Site</div>
+        <div class="pricing-tier">Standard</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>350</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Up to 5 pages</li>
+          <li>React or HTML/CSS/JS</li>
+          <li>Fully responsive</li>
+          <li>Navigation &amp; routing</li>
+          <li>Animations &amp; transitions</li>
+          <li>Performance optimized</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>7–10 days</strong></div>
+        <a href="#contact" class="btn-primary" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">⚡</div>
+        <div class="pricing-name">React Dashboard</div>
+        <div class="pricing-tier">Advanced</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>600</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Full React SPA</li>
+          <li>Charts &amp; data visualization</li>
+          <li>State management</li>
+          <li>API data integration</li>
+          <li>Auth &amp; protected routes</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>10–14 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+    </div>
+
+    <!-- BACKEND -->
+    <div class="pricing-category-label">🔧 Backend Development</div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🗄️</div>
+        <div class="pricing-name">Basic Backend</div>
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>250</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>REST API setup</li>
+          <li>Python / Node.js backend</li>
+          <li>Database integration</li>
+          <li>Basic CRUD operations</li>
+          <li>Documentation</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>5–7 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal">
+        <div class="pricing-popular">Most Popular</div>
+        <div class="pricing-icon">⚙️</div>
+        <div class="pricing-name">Full Backend System</div>
+        <div class="pricing-tier">Standard</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>550</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Complete REST API system</li>
+          <li>Auth &amp; user management</li>
+          <li>PostgreSQL / Supabase DB</li>
+          <li>Business logic &amp; validation</li>
+          <li>Testing &amp; deployment</li>
+          <li>Full documentation</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>10–14 days</strong></div>
+        <a href="#contact" class="btn-primary" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🤖</div>
+        <div class="pricing-name">Python Automation</div>
+        <div class="pricing-tier">Custom</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>200</div>
+        <div class="pricing-period">per script</div>
+        <ul class="pricing-includes">
+          <li>Custom Python scripting</li>
+          <li>Data scraping / processing</li>
+          <li>Workflow automation</li>
+          <li>File &amp; report generation</li>
+          <li>Scheduling setup</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>3–6 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+    </div>
+
+    <!-- WEB DESIGN -->
+    <div class="pricing-category-label">✏️ Web Design</div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🎨</div>
+        <div class="pricing-name">UI/UX Design</div>
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>120</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Wireframes &amp; mockups</li>
+          <li>Color scheme &amp; typography</li>
+          <li>Responsive layout design</li>
+          <li>Up to 3 revision rounds</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>3–5 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal">
+        <div class="pricing-popular">Most Popular</div>
+        <div class="pricing-icon">🌐</div>
+        <div class="pricing-name">WordPress Site</div>
+        <div class="pricing-tier">Standard</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>280</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Full WordPress setup</li>
+          <li>Theme customization</li>
+          <li>Up to 6 pages</li>
+          <li>Plugin configuration</li>
+          <li>SEO basics + mobile ready</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>5–8 days</strong></div>
+        <a href="#contact" class="btn-primary" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🏪</div>
+        <div class="pricing-name">E-Commerce Site</div>
+        <div class="pricing-tier">Advanced</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>500</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Full online store</li>
+          <li>WooCommerce / Shopify</li>
+          <li>Payment gateway setup</li>
+          <li>Product catalog &amp; cart</li>
+          <li>Order management</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>10–14 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+    </div>
+
+    <!-- FULL STACK -->
+    <div class="pricing-category-label">🚀 Full-Stack Web Development</div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">📋</div>
+        <div class="pricing-name">Web App — Basic</div>
+        <div class="pricing-tier">Starter</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>500</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Frontend + backend</li>
+          <li>User authentication</li>
+          <li>PostgreSQL / Supabase DB</li>
+          <li>CRUD functionality</li>
+          <li>Deployed &amp; live</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>10–14 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal">
+        <div class="pricing-popular">Most Popular</div>
+        <div class="pricing-icon">💼</div>
+        <div class="pricing-name">Web App — Pro</div>
+        <div class="pricing-tier">Standard</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>900</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>React + Node.js / Express</li>
+          <li>Role-based auth system</li>
+          <li>Admin dashboard</li>
+          <li>Reports &amp; data export</li>
+          <li>Full deployment + docs</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>14–21 days</strong></div>
+        <a href="#contact" class="btn-primary" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🏗️</div>
+        <div class="pricing-name">Enterprise System</div>
+        <div class="pricing-tier">Custom Quote</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>1500</div>
+        <div class="pricing-period">starting from</div>
+        <ul class="pricing-includes">
+          <li>Complex multi-module app</li>
+          <li>IoT / hardware integration</li>
+          <li>Salesforce / LWC build</li>
+          <li>Real-time data &amp; webhooks</li>
+          <li>Priority support</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>21–45 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+    </div>
+
+    <!-- API INTEGRATION -->
+    <div class="pricing-category-label">🔌 API Integration</div>
+    <div class="pricing-grid">
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🔗</div>
+        <div class="pricing-name">Single API Connect</div>
+        <div class="pricing-tier">Basic</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>150</div>
+        <div class="pricing-period">per integration</div>
+        <ul class="pricing-includes">
+          <li>1 third-party API</li>
+          <li>Auth &amp; token setup</li>
+          <li>Data fetching &amp; display</li>
+          <li>Error handling</li>
+          <li>Basic documentation</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>2–4 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card pricing-featured reveal">
+        <div class="pricing-popular">Specialist</div>
+        <div class="pricing-icon">⚡</div>
+        <div class="pricing-name">Salesforce Integration</div>
+        <div class="pricing-tier">Specialist</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>400</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Salesforce API / Apex</li>
+          <li>LWC component build</li>
+          <li>REST / Connected App setup</li>
+          <li>Real-time data sync</li>
+          <li>Testing &amp; handover</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>7–12 days</strong></div>
+        <a href="#contact" class="btn-primary" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+      <div class="pricing-card reveal">
+        <div class="pricing-icon">🔄</div>
+        <div class="pricing-name">Multi-API Pipeline</div>
+        <div class="pricing-tier">Advanced</div>
+        <div class="pricing-amount"><span class="pricing-currency">$</span>500</div>
+        <div class="pricing-period">one-time</div>
+        <ul class="pricing-includes">
+          <li>Multiple API connections</li>
+          <li>Webhook &amp; event handling</li>
+          <li>Automated sync pipelines</li>
+          <li>Monitoring &amp; alerts</li>
+          <li>Full documentation</li>
+        </ul>
+        <div class="pricing-delivery"><span>Delivery</span><strong>10–14 days</strong></div>
+        <a href="#contact" class="btn-outline" style="display:block;text-align:center;font-size:11px;padding:10px;">Get Started →</a>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="section-divider"></div>
+
   <!-- ============ CONTACT ============ -->
   <section id="contact">
-    <div class="section-label">03 — Contact</div>
+    <div class="section-label">04 — Contact</div>
     <div class="contact-wrapper">
       <div class="contact-info reveal">
         <h2>Let's work<br>together.</h2>
@@ -360,8 +664,8 @@
 
   <!-- ============ FOOTER ============ -->
   <footer>
-    <a href="#" class="footer-logo">LAC<span>.</span>DEV</a>
-    <div>© 2025 Lacazette. Built with HTML, CSS &amp; JavaScript. &nbsp;⚽🔴 Arsenal FC</div>
+    <a href="#" class="footer-logo">LACA<span>.</span>VISION</a>
+    <div>© 2026 Designed by LACA.VISION &nbsp;⚽🔴 Arsenal FC</div>
     <div class="footer-links">
       <a href="https://github.com/Lacazette29" target="_blank" class="footer-social" title="GitHub">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
